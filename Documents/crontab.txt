@@ -1,0 +1,9 @@
+0 8 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/start.php
+0 9 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/linenotifyperson_alltype.php
+0 9 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/linenotifyperson_type13.php
+0 9 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/linenotifyperson_dup.php
+0 9 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/linenotifyperson_error_home.php
+0 9 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/linenotifypersondbpop.php
+0 10 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/linenotifycservice.php
+0 10 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/linenotify_teda4i.php
+0 10 * * 1-5 curl http://xxx.xxx.xxx.x/line_notify/end.php
